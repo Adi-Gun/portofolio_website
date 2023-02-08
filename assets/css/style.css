@@ -445,7 +445,7 @@ body.nav-active { overflow: hidden; }
 .hero { padding-block-start: calc(var(--section-padding) + 160px); }
 
 .hero .container {
-  display: grid;
+  display: flex;
   gap: 50px;
 }
 
@@ -839,13 +839,13 @@ body.nav-active { overflow: hidden; }
   margin-block: 5px 30px;
 }
 
-.insta-list {
+.social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-.insta-post { border-radius: var(--radius-8); }
+.social { border-radius: var(--radius-8); }
 
 
 
